@@ -11,4 +11,4 @@ is the solution.
 
 For example, if we have the array `A = [[1,2,3], [4,5,6], [7,8,9]]`, the bottom row `[7,8,9]` stays the same.
 Then we move up one row to `[4,5,6]` and replace that with `[4 + min(7,8), 5 + min(7,8,9), 6 + min(8,9)]` which is `[11,12,14]`.
-Now `A = [[1,2,3], [11,12,14], [7,8,9]]`. We do the same with the next row up to get `A = [[12,13,15], [11,12,14], [7,8,9]` which leads to our answer `min(A[0]) = 12`.
+Now `A = [[1,2,3], [11,12,14], [7,8,9]]`. We do the same with the next row up to get `A = [[12,13,15], [11,12,14], [7,8,9]]` which leads to our answer `min(A[0]) = 12`.
